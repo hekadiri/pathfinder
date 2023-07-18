@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pathfinding</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script class="h-center" src="sketch.js"></script>
+    <script src="astar.js"></script>
+    <script src="greedy.js"></script>
+  </head>
+
+  <body>
+    <div class="h-center">
+      <button class="button-17" onclick="turnOnAstar()">A* Algorithm Pathfinding</button>
+      <button class="button-17" onclick="turnOnGreedy()">Greedy Algorithm Pathfinding</button>
+      <button class="button-17" onclick="setup()">Reset</button>
+    </div>
+    <div class="h-center">
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>
